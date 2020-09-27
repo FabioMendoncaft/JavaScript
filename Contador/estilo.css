@@ -1,0 +1,38 @@
+body{
+    background: rgb(88, 195, 238);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342)
+}
+footer{
+    color: white;
+    text-align: center; 
+    font-style: italic;
+}
+div{
+    padding: 10px;  
+}
+input#fim{
+    width: 192px;
+}
+input#inicio{
+    width: 177px;
+}
+input[type=button]{
+    background: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 100px;
+    font: normal 19px Segoe UI;
+    width: 100%;
+}
