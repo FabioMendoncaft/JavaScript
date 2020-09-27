@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 id="TituloPrincipal">Calculo do IMC</h1>
+   
+    <section id="esquerda">
+        <h1>Tabela de Pesos</h1>
+        <table border="1" id="tabela">
+            <tr id="tr1">
+                <td>IMC</td>
+                <td>CLASSIFICAÇÃO</td>
+                <td>OBESIDADE</td>
+            </tr>
+            <tr>
+                <td>MENOR QUE 18,5</td>
+                <td>Abaixo do peso</td>
+                <td>0</td>
+            </tr>
+            <tr style="background: white;">
+                <td>ENTRE 18,5 e 24,9</td>
+                <td>Peso ideal</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>ENTRE 25,0 e 29,9</td>
+                <td>Levemente acima do peso</td>
+                <td>0</td>
+            </tr>
+            <tr style="background: white;">
+                <td>ENTRE 30,0 e 34,9</td>
+                <td>OBESIDADE</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>ENTRE 35,0 e 39,9</td>
+                <td>OBESIDADE</td>
+                <td>II</td>
+            </tr>
+            <tr style="background: white;">
+                <td>ACIMA DE 40,0</td>
+                <td>OBESIDADE</td>
+                <td>III</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="centro">
+        <div>
+            <p>Seu peso</p>
+                <input type="number" name="peso" id="peso" placeholder="ex: 80">
+            <p>Sua altura</p>
+                <input type="number" name="altura" id="altura" placeholder="ex: 1.75" style="color: black;">
+        </div>
+        <input id="botao" type="button" value="Calcular" onclick="calcular()">  
+        </br>
+        <div id="res">
+            Resultado
+        </div>
+    </section>
+
+    <section id="direita">
+        <h1 style="text-align: center;">Como funciona?</h1>
+        <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+        </p>
+    </section>
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    background: rgb(87, 87, 255);
+    background-image: url("img/body.png");
+}
+h1#TituloPrincipal{
+    background: rgb(2, 55, 116);
+    color:white;
+    font: normal 30px arial black;
+    text-align: center;
+    padding: 10px;
+}
+section#esquerda{
+    text-align: center;
+    width: 32%;
+    float: left;
+    background: rgba(181, 181, 181, 0.419);
+    color: black;
+    
+}
+#tabela{
+    width: 100%;
+    padding: px;
+    font: normal 20px arial;
+}
+#tr1{
+    background: rgb(2, 55, 116);
+    color: white;
+    
+}
+section#centro{
+    width: 35%;
+    color: white;
+    margin: auto;
+    background: rgb(92, 123, 223);
+    font: normal 25px arial;   
+    padding: 5px;
+}
+section#direita{
+    background: rgba(181, 181, 181, 0.419);
+    text-align: justify;
+    color: black;
+    width: 29%;
+    float: right;
+    margin-top: -330px;
+    font: normal 18px arial;
+    padding: 18px;
+}
+#peso{
+    border-radius: 8px;
+}
+#altura{
+    border-radius: 8px;
+}
+#botao{
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 5px;
+}
+#res{
+    margin-top: 15px;
+}
+    
+
+
+
+
