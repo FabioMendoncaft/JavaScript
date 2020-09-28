@@ -1,5 +1,5 @@
 body{
-    background: rgb(87, 87, 255);
+    background-color: rgb(114, 114, 114);
     background-image: url("img/body.png");
 }
 h1#TituloPrincipal{
@@ -8,14 +8,19 @@ h1#TituloPrincipal{
     font: normal 30px arial black;
     text-align: center;
     padding: 10px;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    line-height: 90px;
 }
 section#esquerda{
     text-align: center;
-    width: 32%;
+    width: 30%;
     float: left;
-    background: rgba(181, 181, 181, 0.419);
+    background: rgb(181, 181, 181);
     color: black;
-    
+    height: 700px;
+    margin-left: -8px;
 }
 #tabela{
     width: 100%;
@@ -28,22 +33,24 @@ section#esquerda{
     
 }
 section#centro{
-    width: 35%;
+    width: 40%;
     color: white;
-    margin: auto;
     background: rgb(92, 123, 223);
     font: normal 25px arial;   
-    padding: 5px;
+    height: 700px;
+    float: left;
+    text-align: left;
+    margin-left: 8px;
 }
 section#direita{
-    background: rgba(181, 181, 181, 0.419);
+    background: rgb(181, 181, 181);
     text-align: justify;
     color: black;
-    width: 29%;
+    width: 30%;
     float: right;
-    margin-top: -330px;
     font: normal 18px arial;
-    padding: 18px;
+    height: 700px;
+    margin-right: -8px;
 }
 #peso{
     border-radius: 8px;
@@ -57,7 +64,15 @@ section#direita{
     padding: 5px;
 }
 #res{
-    margin-top: 15px;
+    font-family: Segoe UI;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+#resultado{
+    text-align: right;
 }
     
 

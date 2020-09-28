@@ -11,7 +11,7 @@
    
     <section id="esquerda">
         <h1>Tabela de Pesos</h1>
-        <table border="1" id="tabela">
+        <table id="tabela">
             <tr id="tr1">
                 <td>IMC</td>
                 <td>CLASSIFICAÇÃO</td>
@@ -59,9 +59,10 @@
         </div>
         <input id="botao" type="button" value="Calcular" onclick="calcular()">  
         </br>
-        <div id="res">
-            Resultado
-        </div>
+        <fieldset>
+            <legend id="resultado">Resultado</legend>
+            <p id="res">O resultado aparecerá aqui...</p>
+        </fieldset>
     </section>
 
     <section id="direita">
