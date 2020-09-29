@@ -62,6 +62,11 @@ section#direita{
     margin-top: 30px;
     border-radius: 8px;
     padding: 5px;
+    transition: background 1s;
+}
+#botao:hover{
+    background:rgb(2, 55, 116);
+    color: white;
 }
 #res{
     font-family: Segoe UI;
